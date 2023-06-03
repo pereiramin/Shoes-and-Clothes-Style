@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  list-style: none;
+  font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 15px;
+      background-color: white;
+      overflow: hidden;
+      line-height: 200px;
+      max-height: 200px;
+}
+
+header > h1 {
+    color: black;
+}
+
+header > img {
+    width: 200px;
+    height: 200px;
+}
+
+#menu-header {
+    display: flex;
+    align-items: center;
+}
+
+#list-menu{
+    display: flex;
+    align-items: center;
+}
+
+.item-menu-header{
+    margin-right: 25px;
+}
+
+.item-menu-header > a:hover{
+    color: yellow ;
+    transition: 1s;
+}
+
+.item-menu-header > a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#btn-header{
+    display: flex;
+}
+
+#btn-header > button {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+#btn-header > button > a{
+    display: flex;
+    align-items: center;
+}
+
+#btn-header > button > a > img{
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+#btn-header > button > a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#img-destaque {
+    padding: 260px;
+    background-image: url(imagens/fundo\ preto.jpg);
+    background-position: center;
+}
+
+.img-div {
+    padding: 25px;
+    background-image: url(imagens/preto\ branco.png);
+    background-position: center;
+    background-size: auto;
+}
+
+main > section > h2 {
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+
+#clients {
+    background-color: white;
+    margin-top: 0;
+    padding: 50px;
+}
