@@ -98,8 +98,173 @@ main > section > h2 {
     color: black;
 }
 
-#clients {
+#compradores {
     background-color: white;
     margin-top: 0;
     padding: 50px;
 }
+
+.line{
+    margin: 0 auto;
+    width: 20px;
+}
+
+.compradores-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.compradores-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.compradores-item > img{
+    width: 84px;
+    height: 84px;
+}
+
+.compradores-item > h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.compradores-item > p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#featured-products{
+    background: linear-gradient(180deg, #F4CEAF 8,33%, rgba(244,200,175,0)100%);
+    padding: 30px;
+}
+
+#featured-product{
+    background: linear-gradient(180deg, #F4CEAF 8,33%, rgba(244,200,175,0)100%);
+    padding: 30px;
+}
+
+.products{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-product{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.title-products {
+    margin-top: 10px;
+    font-family: 'Ubunto', 'sans-serif';
+    text-align: center;
+    font-size: 22px;
+}
+
+#featured-products > a {
+    text-decoration: none;
+    font-family: 'Ubunto', 'sans-serif';     
+    font-size: 20px;
+    color: red;
+}
+
+#featured-product > a {
+    text-decoration: none;
+    font-family: 'Ubunto', 'sans-serif';
+    font-size: 20px;
+    color: red;
+}
+
+#featured-products > a:hover{
+  text-decoration: underline;
+  font-size: 22px;
+  transition: 1s;
+}
+
+#featured-product > a:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    transition: 1s;
+  }
+
+  #sobre-nos {
+  background-image: url(imagens/fundo\ preto.jpg);
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 120px;
+  }
+
+  #sobre-nos > h3{
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Ubuntu', 'sans-serif';
+  }
+  
+  #sobre-nos > p {
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: 500;
+  color: white;
+  font-size: 22px;
+  margin-top: 2em;
+  text-align: left;
+  }
+
+  footer{
+    padding: 80px;
+    background-image: url(imagens/coração4.avif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  footer > ul{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer > h2{
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  }
+
+  .item-menu-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .item-menu-footer>img{
+    width: 34px;
+    height: 34px;
+  }
+
+  .item-menu-footer > p {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
